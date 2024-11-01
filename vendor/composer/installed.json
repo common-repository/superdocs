@@ -1,0 +1,91 @@
+{
+    "packages": [
+        {
+            "name": "doatkolom/ui",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doatkolom/ui.git",
+                "reference": "0ff57ac4089f004635ac5cf3b081af70aaeeff82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doatkolom/ui/zipball/0ff57ac4089f004635ac5cf3b081af70aaeeff82",
+                "reference": "0ff57ac4089f004635ac5cf3b081af70aaeeff82",
+                "shasum": ""
+            },
+            "time": "2023-01-03T12:29:00+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "DoatKolom\\Ui\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MD AL AMIN",
+                    "email": "mdalaminbey@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/doatkolom/ui/issues",
+                "source": "https://github.com/doatkolom/ui/tree/master"
+            },
+            "install-path": "../doatkolom/ui"
+        },
+        {
+            "name": "wpcommander/framework",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpcommander/framework.git",
+                "reference": "41765261c07b0e9e93943425f09780d492ef0986"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpcommander/framework/zipball/41765261c07b0e9e93943425f09780d492ef0986",
+                "reference": "41765261c07b0e9e93943425f09780d492ef0986",
+                "shasum": ""
+            },
+            "time": "2023-01-01T12:28:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "WpCommander\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MD AL AMIN",
+                    "email": "mdalaminbey@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/wpcommander/framework/issues",
+                "source": "https://github.com/wpcommander/framework/tree/1.0.0"
+            },
+            "install-path": "../wpcommander/framework"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

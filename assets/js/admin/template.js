@@ -1,0 +1,1 @@
+jQuery(".page-title-action").on("click",(function(e){e.preventDefault();var t=Alpine.store("DoatKolomUiDrawer");t.setContentByApi(SuperDocsSettings.root+"superdocs/template/create",{headers:{"X-WP-Nonce":SuperDocsSettings.nonce}},"superDocsCreateTemplate"),t.changeStatus()}));
